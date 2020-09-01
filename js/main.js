@@ -8,6 +8,13 @@ console.log(hamburger_menu);
 // creo funzione per mostrare testo Menu
 hamburger.click(
   function(){
-    hamburger_menu.show(slow);
+    hamburger_menu.show("slow");
+  }
+);
+// creo funzione per nacondere testo Menu
+
+$(".close").click(
+  function(){
+    hamburger_menu.hide("slow");
   }
 );
